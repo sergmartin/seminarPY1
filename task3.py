@@ -5,3 +5,21 @@
 - x=2; y=4-> 1
 - x=-34; y=-30 -> 3"""
 
+
+x = int(input("введите X больше 0: "))
+y = int(input("введите Y больше 0: "))
+    
+if x > 0 and y > 0:
+    print("1")
+        
+elif x < 0 and y < 0:
+    print("3")
+    
+elif x > 0 and y < 0:
+    print("4")
+        
+elif x < 0 and y > 0:
+    print("2")
+else:
+    print(" не правильное значение X или Y")
+        
