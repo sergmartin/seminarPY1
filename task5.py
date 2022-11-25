@@ -7,3 +7,11 @@ in
 
 out
 5.099"""
+
+aX = int(input("Введите точку А(x): "))
+aY = int(input("Введите точку А(y): "))
+bX = int(input("Введите точку B(х): "))
+bY = int(input("Введите точку B(y): "))
+
+n = ((bX-aX)**2 + (bY-aY)**2)**0.5
+print((int(n * 1000))/1000)
